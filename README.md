@@ -22,4 +22,3 @@ docker-compose up -d
 kubectl apply -f manifests/nginx-deployment.yaml
 
 # 4. Ouvrir Grafana → http://localhost:3000 (admin/admin)
-<img width="959" height="728" alt="image" src="https://github.com/user-attachments/assets/350855fb-0ad3-4ae4-a569-4adeffe2ec5f" />
