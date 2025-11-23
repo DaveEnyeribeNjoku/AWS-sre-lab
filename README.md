@@ -17,7 +17,7 @@ Stack complète et reproductible en local ou sur AWS CloudShell.
 ```bash
 # 1. Créer la structure
 mkdir -p ~/aws-sre-lab/{monitoring,scripts,manifests} && cd ~/aws-sre-lab
-2. Lancer Prometheus + Grafana
+# 2. Lancer Prometheus + Grafana
 docker-compose up -d
 # 4. Exporter Python (métriques CloudShell)
 nohup python3 monitoring/monitor.py > monitor.log 2>&1 &
