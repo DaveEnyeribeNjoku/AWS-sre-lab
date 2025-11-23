@@ -19,3 +19,5 @@ while True:
     cpu.set(psutil.cpu_percent(interval=1))           # Mise à jour CPU
     mem.set(psutil.virtual_memory().percent)         # Mise à jour RAM
     time.sleep(5)                                     # Toutes les 5 secondes
+EOF
+chmod +x monitoring/monitor.py                        # Rend le script exécutable
