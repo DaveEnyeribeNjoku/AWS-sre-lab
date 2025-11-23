@@ -17,7 +17,6 @@ Stack complète et reproductible en local ou sur AWS CloudShell.
 ```bash
 # 1. Créer la structure
 mkdir -p ~/aws-sre-lab/{monitoring,scripts,manifests} && cd ~/aws-sre-lab
-git clone https://github.com/DaveEnyeribeNjoku/aws-sre-lab.git
 cd aws-sre-lab
 cp .env.example .env
 docker compose up -d --build   # ou docker-compose up -d
